@@ -310,7 +310,7 @@ header.sticky {
 
 .portfolio-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(390px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(360px, auto));
     align-items: center;
     gap: 2.5rem;
     margin-top: 5rem;
@@ -322,7 +322,7 @@ header.sticky {
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
-    height: 100%;
+    height: 250px;
     align-content: center;
     align-items: center;
     background-color: rgba(170, 217, 167, 0.312);
@@ -335,6 +335,7 @@ header.sticky {
     display: block;
     transition: transform 0.5s;
 }
+
 
 .row iframe {
     width: 100%;
@@ -357,7 +358,7 @@ header.sticky {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0 40px;
+    padding: 0px 10px;
     transition: height 0.5s;
 }
 
@@ -368,7 +369,7 @@ header.sticky {
 }
 
 .layer p {
-    color: var(--second-color);
+    color: var(--text-color);
     font-size: 1rem;
     line-height: 1.8;
 }
@@ -383,7 +384,7 @@ header.sticky {
 }
 
 .layer i {
-    font-size: 20px;
+    font-size: 1rem;
     background: var(--text-color);
     width: 60px;
     height: 60px;
@@ -558,6 +559,15 @@ form textarea {
         padding: 110px 3% 60px;
     }
 
+    .row .layer h5 {
+        font-size: small;
+    }
+    .row .layer p {
+        font-size: smaller;
+    }
+    .layer a {
+        font-size: smaller;
+    }
     .end {
         padding: 15px 3%;
     }
